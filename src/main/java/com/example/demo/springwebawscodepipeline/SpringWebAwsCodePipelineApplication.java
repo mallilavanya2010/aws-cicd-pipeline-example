@@ -11,7 +11,7 @@ public class SpringWebAwsCodePipelineApplication {
 	
 	@GetMapping("/")
 	public String getMessage() {
-		return "AWS codepipeline example successfully running with tech stack springboot --> github --> aws code pipeline --> aws code build --> Elastic bean stack";
+		return "Updated Version : AWS codepipeline example successfully running with tech stack springboot --> github --> aws code pipeline --> aws code build --> Elastic bean stack";
 	}
 
 	public static void main(String[] args) {
